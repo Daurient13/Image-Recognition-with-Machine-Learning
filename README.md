@@ -85,3 +85,20 @@ I got a good accuracy of 92%. and then I will visualize the prediction how good 
 
 ![image](https://user-images.githubusercontent.com/86812576/167301415-05676610-34c8-411c-b013-4a86428bb2cb.png)
 
+The picture above is a plot of the predicted results. There are a total of 36 handwritten images. The green color indicates that the prediction is correct, and red means that the prediction is wrong.
+
+Of the 36 handwritten images above, there are 3 images that the machine predicts incorrectly.
+
+But actually if we look at the 3 images that are wrong predictions. People's handwritten drawings are a little ambiguous. I will take exampless.
+
+Let's see the images below:
+
+first image
+![94](https://user-images.githubusercontent.com/86812576/167302008-6e8f380a-f013-4a38-a81b-5bbfd5c57a04.png)
+
+In the picture above the label is the number 9, but the machine predicts the number 4. The picture is actually handwritten which is a bit weird, because the image is a bit crooked. Moreover, the circle of the head of the number 9 does not unite, making it difficult for the machine.
+
+second imgae
+![74](https://user-images.githubusercontent.com/86812576/167302248-7088a172-e8a4-4039-b208-c872f3f60cfe.png)
+
+The second image above is even more ambiguous. They write the number 7 but it is clearly like the number 4 according to our machine predictions. Of course the machine predicts incorrectly, and our model is not bad and can even generalize.
