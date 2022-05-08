@@ -64,3 +64,15 @@ Why am i doing this? because even though the number is well scaled and balanced,
 
 # Training
 
+So here, again, something different from the Pipelines we used to do with Structured Data in Machine Learning before. Well, all the data we have is numeric, which is definitely no categorical data. 
+
+Then the second, is there anything that needs to be preprocessed? does the picture have a missing value? of course not so there is no need to impute. 
+
+How about scaling? no need for scaler because we already divide the data by 255. Just throw away the preprocessor. we don't need that. Wo we only have one step in our **_Pipeline_**, it's the _'algo'_, which defines the Random Forest Algorithm. Actually this is just basic, because in certain cases there will be a more advanced preprocessor
+
+
+![pip](https://user-images.githubusercontent.com/86812576/167298969-b23ff425-ce56-474f-96b7-4bf7d1e5b4f2.png)
+
+I use Random Search with cross validation = 3, scoring uses accuracy because our data is balanced, and the number of iterations = 50.
+
+
