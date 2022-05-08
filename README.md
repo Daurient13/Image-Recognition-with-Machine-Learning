@@ -75,4 +75,13 @@ How about scaling? no need for scaler because we already divide the data by 255.
 
 I use Random Search with cross validation = 3, scoring uses accuracy because our data is balanced, and the number of iterations = 50.
 
+# Result 
+
+![image](https://user-images.githubusercontent.com/86812576/167301143-ebc2ca45-5dcf-4157-b8f3-07ff3f56d309.png)
+
+I got a good accuracy of 92%. and then I will visualize the prediction how good it is.
+
+# Visualize Prediction
+
+![image](https://user-images.githubusercontent.com/86812576/167301415-05676610-34c8-411c-b013-4a86428bb2cb.png)
 
