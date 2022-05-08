@@ -104,3 +104,9 @@ second image
 ![74](https://user-images.githubusercontent.com/86812576/167302248-7088a172-e8a4-4039-b208-c872f3f60cfe.png)
 
 The second image above is even more ambiguous. They write the number 7 but it is clearly like the number 4 according to our machine predictions. Of course the machine predicts incorrectly, and our model is not bad and can even generalize.
+
+# Why It's Work?
+
+You may ask how simple flattening can do this? Let's see the following picture.
+
+![image](https://user-images.githubusercontent.com/86812576/167302845-193f9d82-fadb-4c6b-969a-a5ddd1d95ebf.png)
