@@ -94,11 +94,13 @@ But actually if we look at the 3 images that are wrong predictions. People's han
 Let's see the images below:
 
 first image
+
 ![94](https://user-images.githubusercontent.com/86812576/167302008-6e8f380a-f013-4a38-a81b-5bbfd5c57a04.png)
 
 In the picture above the label is the number 9, but the machine predicts the number 4. The picture is actually handwritten which is a bit weird, because the image is a bit crooked. Moreover, the circle of the head of the number 9 does not unite, making it difficult for the machine.
 
-second imgae
+second image
+
 ![74](https://user-images.githubusercontent.com/86812576/167302248-7088a172-e8a4-4039-b208-c872f3f60cfe.png)
 
 The second image above is even more ambiguous. They write the number 7 but it is clearly like the number 4 according to our machine predictions. Of course the machine predicts incorrectly, and our model is not bad and can even generalize.
