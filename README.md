@@ -110,3 +110,27 @@ The second image above is even more ambiguous. They write the number 7 but it is
 You may ask how simple flattening can do this? Let's see the following picture.
 
 ![image](https://user-images.githubusercontent.com/86812576/167302845-193f9d82-fadb-4c6b-969a-a5ddd1d95ebf.png)
+
+At first each label will be flattened, then plotted. Each label has its own pattern.
+
+### Number 0
+
+For example, at number 0 the pattern is that the initial pixel is black because the background images are black, but certain pixels are white.
+
+![0](https://user-images.githubusercontent.com/86812576/167429036-e253ec56-ca4f-4d29-80b0-6119a10cc518.png)
+
+Then we can see that the overall pattern of the number 0 is like the image above. That is, a certain part of the pixel is white then it indicates the number 0.
+
+### Number 1
+
+![1](https://user-images.githubusercontent.com/86812576/167430030-e30db4ca-c848-418f-bdc0-42af570a143c.png)
+
+The number 1 is thinner, in contrast to the number 0 which is thicker because the number 1 is like only one line.
+
+### Number 7 and 9
+
+![79](https://user-images.githubusercontent.com/86812576/167430654-b4f3a287-b379-436a-978d-e52e393cb9c6.png)
+
+The numbers 7 and 9 have similar lines so they will form the same pattern. On the front it is black, the back is a little close to the edge, but in certain parts it looks thicker
+
+And the advantage of machines is that they are very good at looking for patterns. So behind the scenes that the machine can do image classification because there is a pattern. Maybe humans can't see that but machines can. The machine doesn't know that this is an image of the number 1, 2, or 9 but it sees the pattern of the image.
