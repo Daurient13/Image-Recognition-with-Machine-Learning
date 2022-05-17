@@ -27,6 +27,13 @@ Once flattened, it can be arranged into a table. After being converted into a ta
 
 ![image](https://user-images.githubusercontent.com/86812576/168829045-4e5119b9-3e8d-49e2-8fe7-951abfb454db.png)
 
+### result of structuring by flattening
+
+![image](https://user-images.githubusercontent.com/86812576/168829334-347834e2-8dd7-42bc-a17e-ebcb7fc4c202.png)
+
+On the left is the image data, the column is the features (pixels).
+If the size is different then crop it to be the same size.
+So in essence: How to solve problems with unstructured data images, which is to first change them to structured and then enter them into machine learning. And the Data Image is a pixel as a feature.
 
 # MNIST Dataset
 
