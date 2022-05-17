@@ -22,6 +22,11 @@ The color image is a combination of RGB colors with certain channels.
 ### then how to process Image Data?
 ### Flattenig
 
+Square image is initially straightened along the number of pixels
+Once flattened, it can be arranged into a table. After being converted into a table, then it can be processed by machine.
+
+![image](https://user-images.githubusercontent.com/86812576/168829045-4e5119b9-3e8d-49e2-8fe7-951abfb454db.png)
+
 
 # MNIST Dataset
 
