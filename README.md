@@ -4,13 +4,14 @@
 Basically the structure of an image consists of pixels in the form of array numbers, the image is black and white. The pixel range is 0 to 255 or 0 to 1 and usually used is 0 to 1 and scaling by dividing by 255.
 
 as an example:
+
 ![image](https://user-images.githubusercontent.com/86812576/168827274-9c7aba3b-fa61-427c-86c8-742a5efcad64.png)
 
-In the image above we will see the array number behind the image.
+In the image above we will see the array number behind the image:
 
 ![image](https://user-images.githubusercontent.com/86812576/168827736-fea779d2-5739-4b2f-b018-ee4526238f1b.png)
 
-If the pixel is 0 it means the pixel is black. if the pixel is worth 255 it means it's white, and if the pixel is worth 125 it means it's gray.
+If the pixel is 0 it means the pixel is black. if the pixel is worth 255 it means it's white, and if the pixel is worth 125 it means it's gray. The closer to the 255 array values ​​in the pixel, the closer to white it is.
 
 **how can the image be in color**?
 
